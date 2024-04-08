@@ -1,0 +1,54 @@
+.main{
+    width: 70vw;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.main button{
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    background-color: blue;
+    border: 1px solid rgb(20, 20, 246);
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+}
+
+.main button:hover{
+    background-color: rgb(13, 13, 101);
+    border: 1px solid rgb(20, 20, 246);
+}
+
+.list{
+    width: 60%;
+    margin: 3rem auto;
+    background-color: rgb(174, 188, 218);
+    border-radius: 8px;
+    list-style: none;
+    padding: 0.8rem;
+}
+
+.list li{
+    padding: 0.3rem;
+}
+
+.list button{
+    padding: 0;
+    margin: 0;
+    margin-left: 2rem;
+    background-color: rgb(174, 188, 218);
+    border: 0;
+    cursor: pointer;
+}
+
+.list button:hover{
+    background-color: rgb(174, 188, 218);
+    border: 0;
+}
+
+.trash{
+    width: 20px;
+    height: 20px;
+}

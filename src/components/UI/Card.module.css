@@ -1,0 +1,12 @@
+.card{
+    width: 100vw;
+    height: 100vh;
+}
+
+.lightTheme{
+    background-color: white;
+}
+
+.darkTheme{
+    background-color: black;
+}

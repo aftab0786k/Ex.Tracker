@@ -1,0 +1,21 @@
+.main{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.main button{
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    margin: 1rem;
+    background-color: blue;
+    border: 1px solid rgb(20, 20, 246);
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+}
+
+.main button:hover{
+    background-color: rgb(13, 13, 101);
+    border: 1px solid rgb(20, 20, 246);
+}

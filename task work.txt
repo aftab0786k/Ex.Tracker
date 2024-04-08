@@ -1,0 +1,66 @@
+Commit ID =
+
+
+
+1) Why are we splitting the file?
+
+Ans - We are splitting the file because in big application when we put everything inside one file that become very long file and become hard to debug. So as a programmer we have to separate our concerns. We have to put each slice in separate file.
+
+
+
+2) What is the logic behind diving the files like the way the udemy trainer does?
+
+Ans - There we are putting every slice inside separate file so that we can import them inside main store file and our store file become lean.
+
+
+
+3) Explain the core concepts of redux?
+
+Ans - Redux is a state management library for JavaScript applications, commonly used with frameworks like React. It introduces several core concepts to manage application state in a predictable and scalable way:
+
+
+
+-Store: The central hub of Redux is the store. It holds the entire state tree of the application. 
+
+
+
+-State: State represents the current state of the application. It's a plain JavaScript object that is managed by the Redux store.
+
+
+
+-Actions: Actions are plain JavaScript objects that describe the changes that need to be made to the state. 
+
+
+
+-Reducers: Reducers specify how the state changes in response to actions. They are pure functions that take the current state and an action as arguments and return the new state.
+
+
+
+-Dispatch: The dispatch function is provided by the Redux store. It is used to dispatch actions to the store, triggering the state change process.
+
+
+
+4) Tell the utilities of following
+
+-useDispatch
+
+-combineReducers
+
+-useSelector
+
+Ans - useDispatch -> The useDispatch hook is a utility provided by the Redux library that allows React components to dispatch actions to the Redux store. It returns a reference to the dispatch function, which can be used to dispatch actions to the store. By using it we can trigger an event. It is used to update the state of the component and return a new state.
+
+
+
+-combineReducers -> combineReducers takes an object full of slice reducer functions and creates a function that outputs a corresponding state object with the same keys. The combineReducers function allows us to combine multiple reducer functions into a single function that can be passed to the Redux store. The resulting reducer function handles multiple slices of the state, each controlled by a separate reducer function.
+
+
+
+-useSelector -> The useSelector hook is used to extract the state of a component from the redux store using the selector function. It is a feature provided by the React-Redux library that alloes React components to access the state stored in a Redux store. It is a replacement for the traditional mapStateToProps function used in class-based components.
+
+
+
+5) When to use redux and when to use context API?
+
+Ans - Redux and Context API both allows data to be passed through a component tree without having to pass props manually at every level. React Context API is a simpler solution suitable for smaller applications with simple state management needs, while Redux is a more powerful solution suitable for larger and more complex applications with advanced state management needs.
+

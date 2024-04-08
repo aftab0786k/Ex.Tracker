@@ -1,0 +1,24 @@
+.tr{
+    background-color: rgb(174, 188, 218);
+}
+
+td{
+    border-radius: 8px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.action button{
+    padding: 0;
+    background-color: rgb(174, 188, 218);
+    border: 0;
+    cursor: pointer;
+}
+
+.action button img{
+    width: 35px;
+    height: 35px;
+}
